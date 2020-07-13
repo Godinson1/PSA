@@ -1,0 +1,20 @@
+{
+  "name": "psa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "mongoose": "^5.9.23",
+    "nodemailer": "^6.4.10"
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, navy, teal);
+    top: 0;
+}
+
+.anim {
+    margin-top: 50px;
+    width: 5px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+  .p-header {
+      margin: 150px 0 0 50px;
+      font-size: 70px;
+  }
